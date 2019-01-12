@@ -1,0 +1,49 @@
+[
+  {
+    "id": 0,
+    "title": "Newspaper Sentiment Analysis",
+    "tags": ["Google Cloud Natural Language API", "Python"],
+    "description": "Utilized Google Cloud Natural Language API to create a modular sentiment analysis tool for collections of web based news sources. An example was made for Al Jazeera and compiles a sentiment score and emotion score of each individual article, as well as the average of all articles.",
+    "relaventLinks": [
+      {
+        "id": 0,
+        "name": "Project on GitHub",
+        "url": "https://github.com/Smidds/mstar-rise" 
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "‘Morningstar Rise’ Case Study Application",
+    "tags": ["Vue.js", "Node"],
+    "description": "Created a Vue.js application to demonstrate the function of a potential application within Morningstar. The application provided a user guided experience to navigate through several fields and questions in order to provide the correct retirement plan for your small business.",
+    "relaventLinks": [
+      {
+        "id": 0,
+        "name": "Project on GitHub",
+        "url": "https://github.com/Smidds/mstar-rise"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Beckman SignageLive Menu Widget",
+    "tags": ["Javascript", "KnockoutJS", "HTML"],
+    "description": "Implemented a dynamically refreshing webpage to display the menu content that can be found on the Beckman development server. Content was displayed from the Beckman Communications API using only client side technologies to reduce the amount of overhead in production and implementation.",
+    "relaventLinks": 
+    [
+      {
+        "id": 0,
+        "name": "Project on GitHub", 
+        "url": "https://github.com/Smidds/beckman-cafe-signagelive-widget-vue"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Open Ears Pairing Web Application",
+    "tags": ["HTML", "CSS", "PHP", "Javascript", "Python", "Heroku", "MySQL", "Google Sheets API"],
+    "description": "Created a web application to pair students for peer counseling. utilizing, and the online application hosting service Heroku. Made extensive use of MySQL and PHP in the LAMP stack setup as well as the Google Sheets API.",
+    "relaventLinks": []
+  }
+]

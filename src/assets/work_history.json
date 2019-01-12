@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "Full Stack Web Developer",
+    "company": "Beckman Institute for Advanced Science and Technology",
+    "location": "Champaign, Illinois",
+    "startDate": "January 1 2018",
+    "endDate": "",
+    "description": "Followed every stage of the standard development cycle on the Beckman Research Institute website utilizing ASP.NET web forms/MVC. Expanded the Tech Talks Events page to include dynamic content from the YouTube API with JQuery and refactoring stylesheets to prepare for a future migration to a new theme template. Created a digital signage widget utilizing KnockoutJS and SignalR to display dynamic, real-time data to various endpoints from the API. Implemented a new mobile-friendly and modern theme for the new home site on SiteFinity."
+  },
+  {
+    "id": 1,
+    "title": "Front End Web Developer",
+    "company": "Morningstar, Inc.",
+    "location": "Chicago, Illinois",
+    "startDate": "June 1 2018",
+    "endDate": "August 1 2018",
+    "description": "Contributed to the backend and frontend creation of a new application for the Morningstar website. Utilizing Kotlin for the backend API development I was responsible for creating tests against various endpoints. The frontend development was done in Vue.js and I was responsible for the creation of several core functions to the application, as well as creating testing strategies for routing, component loading, and schematic mocking on JSON responses."
+  }
+]
