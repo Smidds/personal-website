@@ -4,31 +4,33 @@
     <h2 class="section-header">
       Projects
     </h2>
-    <div v-for="project in projects" :key="project.id" class="project">
-      <h3 class="card-title">
-        {{ project.title }}
-      </h3>
-      <div class="project-details">
-        <p>
-          {{ project.description }}
-        </p>
-        <div class="project-tags">
-          <span v-for="(tag, index) in project.tags" :key="index" class="project-tag">
-            {{ tag }}
-          </span>
-        </div>
-        <div class="project-links" v-if="project.relaventLinks.length > 0">
-          <p><i>Links:</i></p>
-          <ul class="project-links__large">
-            <li v-for="link in project.relaventLinks" :key="link.id" class="projects-link">
-              {{ link.name }} <a :href="link.url">{{ link.url }}</a>
-            </li>
-          </ul>
-          <ul class="project-links__small">
-            <li v-for="link in project.relaventLinks" :key="link.id" class="projects-link">
-              <a :href="link.url">{{ link.name }}</a>
-            </li>
-          </ul>
+    <div class="card-list">
+      <div v-for="project in projects" :key="project.id" class="project card">
+        <h3 class="card-title">
+          {{ project.title }}
+        </h3>
+        <div class="project-details">
+          <p>
+            {{ project.description }}
+          </p>
+          <div class="project-tags">
+            <span v-for="(tag, index) in project.tags" :key="index" class="project-tag">
+              {{ tag }}
+            </span>
+          </div>
+          <div class="project-links" v-if="project.relaventLinks.length > 0">
+            <p><i>Links:</i></p>
+            <ul class="project-links__large">
+              <li v-for="link in project.relaventLinks" :key="link.id" class="projects-link">
+                {{ link.name }} <a :href="link.url">{{ link.url }}</a>
+              </li>
+            </ul>
+            <ul class="project-links__small">
+              <li v-for="link in project.relaventLinks" :key="link.id" class="projects-link">
+                <a :href="link.url">{{ link.name }}</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -53,10 +55,6 @@
 </script>
 
 <style lang="scss" scoped>
-  .card-title {
-    margin-top: 5px;
-  }
-
   .project {
     border: 3px solid black;
     padding: 15px;
@@ -97,13 +95,13 @@
     margin-bottom: 15px;
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 500px) {
     .project-links__large {
       display: none;
     }
   }
 
-  @media screen and (min-width: 451px) {
+  @media screen and (min-width: 501px) {
     .project-links__small {
       display: none;
     }

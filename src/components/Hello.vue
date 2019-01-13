@@ -18,11 +18,6 @@
   .full-name {
     background-color: rgba(255, 225, 0, 0.54);
     padding-left: 2px;
-  }
-  
-  @media screen and (max-width: 450px) {
-    .full-name {
-      display: inline-block;
-    }
+    display: inline-block;
   }
 </style>

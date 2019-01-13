@@ -2,21 +2,23 @@
   <div id="work">
     <Divider />
     <h2 class="section-header">Work History</h2>
-    <div v-for="job in $options.work_history" :key="job.id" class="job">
-      <h3 class="card-title">
-        {{ job.title }}
-      </h3>
-      <div class="job-details">
-        <div class="job-details__dates">
-          <span class="job-details__start-date"> {{ get_date(job.startDate) }} - </span>
-          <span class="job-details__end-date"> {{ get_date(job.endDate) }} </span>
+    <div class="card-list">
+      <div v-for="job in $options.work_history" :key="job.id" class="job card">
+        <h3 class="card-title">
+          {{ job.title }}
+        </h3>
+        <div class="job-details">
+          <div class="job-details__dates">
+            <span class="job-details__start-date"> {{ get_date(job.startDate) }} - </span>
+            <span class="job-details__end-date"> {{ get_date(job.endDate) }} </span>
+          </div>
+          <span class="job-details__company-name"> <i>{{ job.company }}</i> </span>
+          <span class="job-details__company-location"> {{ job.location }} </span>
         </div>
-        <span class="job-details__company-name"> <i>{{ job.company }}</i> </span>
-        <span class="job-details__company-location"> {{ job.location }} </span>
+        <p class="job-description">
+          {{ job.description }}
+        </p>
       </div>
-      <p class="job-description">
-        {{ job.description }}
-      </p>
     </div>
   </div>
 </template>

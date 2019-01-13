@@ -17,6 +17,7 @@ h3 {
 #app {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  margin: 18px;
 }
 
 .section-header {
@@ -28,8 +29,29 @@ h3 {
   margin-top: 5px;
 }
 
-@media screen and (max-width: 450px) {
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 0 calc(50% - 20px);
+}
+
+@media screen and (min-width: 501px) {
   #app {
-    margin: 18px;
+    margin: 32px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .card-list {
+    width: 700px;
+  }
+
+  .card {
+    max-width: 300px;
   }
 }
