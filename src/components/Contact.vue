@@ -26,7 +26,7 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .contact-button {
     display: block;
     text-decoration: none;
@@ -34,6 +34,11 @@
     border: 2px solid black;
     padding: 22px 0 22px 15px;
     margin-bottom: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.45),0 4px 4px 0 rgba(0,0,0,0.12);
+  }
+
+  .contact-button:hover {
+    background-color: #ffff4db3;
   }
 
   .contact-button:last-child {
