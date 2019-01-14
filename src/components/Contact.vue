@@ -32,7 +32,7 @@
     text-decoration: none;
     color: black;
     border: 2px solid black;
-    padding: 22px 0 22px 15px;
+    padding: 22px 18px 22px 15px;
     margin-bottom: 15px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.45),0 4px 4px 0 rgba(0,0,0,0.12);
   }
@@ -41,7 +41,15 @@
     background-color: #ffff4db3;
   }
 
-  .contact-button:last-child {
-    margin-bottom: 0;
+  @media screen and (min-width: 801px) {
+    .contact-button {
+      flex: 0 calc(45% - 10px);
+    }
+
+    .contact-methods {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
 </style>

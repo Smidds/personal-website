@@ -36,10 +36,6 @@ h3 {
   justify-content: space-between;
 }
 
-.card {
-  flex: 1 0 calc(50% - 20px);
-}
-
 @media screen and (min-width: 501px) {
   #app {
     margin: 32px;
@@ -47,11 +43,23 @@ h3 {
 }
 
 @media screen and (min-width: 800px) {
-  .card-list {
-    width: 700px;
+  #app {
+    margin: 0 auto;
   }
 
   .card {
-    max-width: 300px;
+    flex: 0 calc(45% - 10px);
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1080px) {
+  #app {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  #app {
+    width: 1000px;
   }
 }
