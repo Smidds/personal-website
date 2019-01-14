@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="contact">
     <Divider />
     <h2 class="section-header">
       Contact Me
