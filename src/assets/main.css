@@ -36,6 +36,10 @@ h3 {
   justify-content: space-between;
 }
 
+.text-highlight {
+  background-color: rgba(255, 225, 0, 0.54);
+}
+
 @media screen and (min-width: 501px) {
   #app {
     margin: 32px;

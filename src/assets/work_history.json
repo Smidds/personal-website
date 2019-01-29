@@ -1,6 +1,15 @@
 [
   {
     "id": 0,
+    "title": "Virtual Reality Software Engineer",
+    "company": "University of Illinois at Urbana-Champaign",
+    "location": "Champaign, Illinois",
+    "startDate": "January 28 2019",
+    "endDate": "",
+    "description": "Constructing a virtual environment in the Unreal to create the first course on campus with primary instruction in virtual reality. Utilizing Unreal and C#, the course in constructed in conjunction with students from the education department and with several developers to make a realistic and interactive digital environment to teach archaeological methods. Contributions thus far include the construction of a full prototype, interactive, voxel-desctructable soil, several archaeological tools and full interaction, and game mechanics."
+  },
+  {
+    "id": 1,
     "title": "Full Stack Web Developer",
     "company": "Beckman Institute for Advanced Science and Technology",
     "location": "Champaign, Illinois",
@@ -9,7 +18,7 @@
     "description": "Followed every stage of the standard development cycle on the Beckman Research Institute website utilizing ASP.NET web forms/MVC. Expanded the Tech Talks Events page to include dynamic content from the YouTube API with JQuery and refactoring stylesheets to prepare for a future migration to a new theme template. Created a digital signage widget utilizing KnockoutJS and SignalR to display dynamic, real-time data to various endpoints from the API. Implemented a new mobile-friendly and modern theme for the new home site on SiteFinity."
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Front End Web Developer",
     "company": "Morningstar, Inc.",
     "location": "Chicago, Illinois",

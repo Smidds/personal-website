@@ -4,7 +4,7 @@
     <Work />
     <Projects />
     <Contact />
-    <NavigationBar :nav_elems="nav_elements"/>
+    <NavigationBar />
   </div>
 </template>
 
@@ -23,32 +23,6 @@
       Projects,
       Contact,
       NavigationBar
-    },
-    data() {
-      return {
-        nav_elements: [
-          {
-            'name': 'Home',
-            'link': '#hello',
-            'image': ''
-          },
-          {
-            'name': 'Work',
-            'link': '#work',
-            'image': ''
-          },
-          {
-            'name': 'Projects',
-            'link': '#projects',
-            'image': ''
-          },
-          {
-            'name': 'Contact',
-            'link': '#contact',
-            'image': ''
-          }
-        ]
-      }
     }
   }
 </script>
